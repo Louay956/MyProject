@@ -1,69 +1,193 @@
 const shoes = [
   { 
-   image:"./Images/images.jpg",
    name:"chausure pour femme",
-   price:50,
-   title:"shoes"   
+   image:"./Images/shoes/prod15.jpeg",
+   price:50,   
   },
   {
-    name: "Chaussettes Marche Sportive/Nordique WS 500 Invisible Fresh Rouge/Orange/Bleu",
-    img: "https://contents.mediadecathlon.com/p2299359/k$3f2148a321ee4b26ce4ba39a74b7b24e/chaussettes-marche-sportiveslashnordique-ws-500-invisible-fresh-rouge-slash-orange-slashbleu.jpg?format=auto&quality=60&f=200x200",
-    price: 9.99
+    name: "Nordique WS 500 ",
+    image: "./Images/shoes/prod13.jpeg",
+    price: 19
   },
   {
-    name: "Chaussures Aquatiques Aquashoes 100 Grises Foncées",
-    img: "https://contents.mediadecathlon.com/p1163214/k$35cfac81a02191edb8c6b5aafe0ce645/chaussures-aquatiques-aquashoes-100-grises-foncees.jpg?format=auto&quality=60&f=200x200",
-    price: 14.99
+    name: "TARMAK",
+    image: "./Images/shoes/prod12.jpeg",
+    price: 99
+  },
+  {
+    name: "ARTENGO",
+    image: "./Images/shoes/prod14.jpeg",
+    price: 120
+  },
+  {
+    name: "AQUASHOES 100 ",
+    image: "./Images/shoes/prod11.jpeg",
+    price: 14,
+    title:"Shoes"  
   },
   
 ];
 const Tshirt = [
   {
-    name: "Tee-Shirt Running Run Dry Blanc Cassé Homme",
-    img: "https://contents.mediadecathlon.com/p2617560/k$dcb853891a3ec26b559a15f685c11c7f/tee-shirt-running-run-dry-blanc-casse-homme.jpg?format=auto&quality=60&f=200x200",
-    price: 19.99
+    name: "Tee-Shirt Running ",
+    image: "./Images/tshirt/tshirt1.jpeg",
+    price: 19,
+    title:"Tshirt"
   },
   {
-    name: "T-Shirt de Randonnée Nature NH500 Homme",
-    img: "https://contents.mediadecathlon.com/p2194939/k$536cc90300b392834a030f81b2cff874/t-shirt-de-randonnee-nature-nh500-homme.jpg?format=auto&quality=60&f=200x200",
-    price: 24.99
+    name: "DOMYOS",
+    image: "./Images/tshirt/tshirt2.jpeg",
+    price: 49,
+    title:"Tshirt"
+  },
+  {
+    name: "KIPRUN",
+    image: "./Images/tshirt/tshirt3.jpeg",
+    price: 39,
+    title:"Tshirt"
+  },
+  {
+    name: "QUECHUA T-shirt",
+    image: "./Images/tshirt/tshirt4.jpeg",
+    price: 179,
+    title:"Tshirt"
+  },
+  {
+    name: "Artengo T-shirt",
+    image: "./Images/tshirt/tshirt5.jpeg",
+    price: 45,
+    title:"Tshirt"
   },
   
 ];
 const Short = [
   {
-    name: "Pantalon Chasse 300 Vert Renfort",
-    img: "https://contents.mediadecathlon.com/p41216/k$a88b9778accc5021b02de133731631b1/pantalon-chasse-300-vert-renfort.jpg?format=auto&quality=60&f=200x200",
-    price: 39.99
+    name: "OLAIAN N300",
+    image: "./Images/Short/short1.jpeg",
+    price: 39
   },
   {
-    name: "Short de Football Eco-Conçu Adulte F100 Blanc",
-    img: "https://contents.mediadecathlon.com/p1604447/k$3700d937754a01f5d1c82fb5b57abb80/short-de-football-eco-concu-adulte-f100-blanc.jpg?format=auto&quality=60&f=200x200",
-    price: 12.99
+    name: "ARTENGO",
+    image: "./Images/Short/short2.jpeg",
+    price: 59
+  },
+  {
+    name: "OLAIAN",
+    image: "./Images/Short/short3.jpeg",
+    price: 40
+  },
+  {
+    name: "KIPSTA",
+    image: "./Images/Short/short4.jpeg",
+    price: 109
+  },
+  {
+    name: "QUECHUA",
+    image: "./Images/Short/short5.jpeg",
+    price: 62,
+    title: "Short"
   },
 ];
 const Watch = [
   { 
-    image:"./Images/images.jpg",
+    image:"./Images/watch/watch1.jpeg",
     name:"chausure pour femme",
     price:50,
-    title:"shoes"   
+    title:"Montres"   
+   },
+   { 
+    image:"./Images/watch/watch2.jpeg",
+    name:"KALENGI",
+    price:70,
+    title:"Montres"   
+   },
+   { 
+    image:"./Images/watch/watch3.jpeg",
+    name:"NABAIJI",
+    price:140,
+    title:"Montres"   
+   },
+   { 
+    image:"./Images/watch/watch4.jpeg",
+    name:"DECATHLON",
+    price:49,
+    title:"Montres"   
+   },
+   { 
+    image:"./Images/watch/watch5.jpeg",
+    name:"CAPERLAN",
+    price:90,
+    title:"Montres"   
+   },
+   { 
+    image:"./Images/watch/watch6.jpeg",
+    name:"KIPRUN",
+    price:90,
+    title:"Montres"   
    },
 ]
 const Maillots = [
   { 
-    image:"./Images/images.jpg",
-    name:"chausure pour femme",
+    image:"./Images/maillots/mm1.jpeg",
+    name:"OLAIAN",
     price:50,
-    title:"shoes"   
+    title:"Maillots"   
+   },
+   { 
+    image:"./Images/maillots/mm2.jpeg",
+    name:"NABAIJI",
+    price:90,
+    title:"Maillots"   
+   },
+   { 
+    image:"./Images/maillots/mm3.jpeg",
+    name:"OLAIAN",
+    price:150,
+    title:"Maillots"   
+   },
+   { 
+    image:"./Images/maillots/mm4.jpeg",
+    name:"KALENJI",
+    price:110,
+    title:"Maillots"   
+   },
+   { 
+    image:"./Images/maillots/mm5.jpeg",
+    name:"ROCKRIDER",
+    price:210,
+    title:"Maillots"   
    },
 ]
 const Masque = [
   { 
-    image:"./Images/images.jpg",
-    name:"chausure pour femme",
-    price:50,
-    title:"shoes"   
+    image:"./Images/masques/m1.jpeg",
+    name:"SUBEA",
+    price:20,
+    title:"Masque"   
+   },
+   { 
+    image:"./Images/masques/m2.jpeg",
+    name:"FOUGANZA",
+    price:15,
+    title:"Masque"   
+   },
+   { 
+    image:"./Images/masques/m3.jpeg",
+    name:"FORCLAZ",
+    price:59,
+    title:"Masque"   
+   },
+   { 
+    image:"./Images/masques/m4.jpeg",
+    name:"NABAIJI",
+    price:79,
+    title:"Masque"   
+   },
+   { 
+    image:"./Images/masques/m5.jpeg",
+    name:"KALENJI",
+    price:110,
+    title:"Masque"   
    },
 ]
 
@@ -84,7 +208,7 @@ const commandes = document.querySelector(".commandes");
 const container = document.querySelector(".container");
 const container2 = document.querySelector(".container2");
 const newtotalprice = document.querySelector("#newtotalprice");
-const title = document.querySelector(".title");
+const titles = document.querySelector(".title");
 const catalogue = document.querySelector(".catalogue");
 const market = document.querySelector(".market");
 const home = document.querySelector(".home");
@@ -109,8 +233,8 @@ function addToCart(item) {
   displayprice();
   commandes.innerHTML += `
       <div class="grid2">
-          <h1 class="price">${item.price}</h1>
-          <h2 class="details">${item.name}</h2>
+          <h4 class="details">${item.name}</h4>
+          <h4 class="price">${item.price}</h4>
        </div>
          `;
   displayCart();
@@ -119,12 +243,12 @@ function addToCart(item) {
 function shoesData(T){
   container.innerHTML ="";
   T.forEach(function (v) {
-  title.innerHTML= v.title;
+  titles.innerHTML= v.title;
   container.innerHTML += `
            <div class="grid1">
                <p><img src="${v.image}" alt="${v.name}" class="img2"></p>
+               <h1 class="details">${v.name}</h1>
                <h1 class="price">${v.price}</h1>
-               <h2 class="details">${v.name}</h2>
                <button onclick='addToCart(${JSON.stringify(v)})'>add to cart</button>
            </div>`;
   });
@@ -134,7 +258,7 @@ function shoesData(T){
 function TshirtData(T){
 container.innerHTML ="";
 T.forEach(function (v) {
-  title.innerHTML= v.title;
+  titles.innerHTML= v.title;
   container.innerHTML += `
            <div class="grid1">
                <p><img src="${v.image}" alt="${v.name}" class="img2"></p>
@@ -149,7 +273,7 @@ T.forEach(function (v) {
 function ShortData(T){
   container.innerHTML ="";
   T.forEach(function (v) {
-    title.innerHTML= v.title;
+    titles.innerHTML= v.title;
     container.innerHTML += `
              <div class="grid1">
                  <p><img src="${v.image}" alt="${v.name}" class="img2"></p>
@@ -164,7 +288,7 @@ function ShortData(T){
   function WatchData(T){
     container.innerHTML ="";
     T.forEach(function (v) {
-      title.innerHTML= v.title;
+      titles.innerHTML= v.title;
       container.innerHTML += `
                <div class="grid1">
                    <p><img src="${v.image}" alt="${v.name}" class="img2"></p>
@@ -179,7 +303,7 @@ function ShortData(T){
     function MaillotsData(T){
       container.innerHTML ="";
       T.forEach(function (v) {
-        title.innerHTML= v.title;
+        titles.innerHTML= v.title;
         container.innerHTML += `
                  <div class="grid1">
                      <p><img src="${v.image}" alt="${v.name}" class="img2"></p>
@@ -194,7 +318,7 @@ function ShortData(T){
       function MasqueData(T){
         container.innerHTML ="";
         T.forEach(function (v) {
-          title.innerHTML= v.title;
+          titles.innerHTML= v.title;
           container.innerHTML += `
                    <div class="grid1">
                        <p><img src="${v.image}" alt="${v.name}" class="img2"></p>
@@ -205,7 +329,9 @@ function ShortData(T){
           });
           displayprice();
         };
-shoesData(shoes);
+
+
+ ShortData(Short);
 displayCart();
 
 
